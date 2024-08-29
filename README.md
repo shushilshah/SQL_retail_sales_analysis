@@ -3,16 +3,15 @@
 ## Project Overview
 
 **Project Title**: Retail Sales Analysis  
-**Database**: `MySQL`
+**Database Used**: `MySQL`
 
-In this project, I demonstrates my SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+In this project, I demonstrates SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries.
 
 ## Objectives
 
 1. **Set up a retail sales database**: Create and populate a retail sales database with the provided sales data.
-2. **Data Cleaning**: Identify and remove any records with missing or null values.
-3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
-4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
+2. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
+3. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
 
 ## Project Structure
 
@@ -40,7 +39,7 @@ CREATE TABLE retail_sales
 );
 ```
 
-### 2. Data Exploration & Cleaning
+### 2. EDA
 
 - **Record Count**: Determine the total number of records in the dataset.
 - **Customer Count**: Find out how many unique customers are in the dataset.
@@ -54,8 +53,6 @@ select distinct(category) from sales_data;
 ```
 
 ### 3. Data Analysis & Findings
-
-The following SQL queries were developed to answer specific business questions:
 
 1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
 
